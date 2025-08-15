@@ -11,6 +11,12 @@ df = pd.DataFrame({
     "car": ["Audi", "BMW", "Mercedes"]
 })
 
+#adding a new row
+idx = len(df.index)
+df.loc[idx] = {"name":"David",
+                "age":38,
+                "car":"Dodge"}
+
 #save the dataframe
 df.to_csv("data/raw/abc_data.csv", index=False)
 print("Data ingested successfully!")
