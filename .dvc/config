@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "gdrive_remote"']
+    url = gdrive://1qIiv4Xiol63HcY0CffxcLn-Wz2AJkgjW
+['remote "myremote"']
+    url = ../data_tracker
